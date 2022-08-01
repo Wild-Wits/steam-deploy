@@ -98,7 +98,7 @@ runs:
         depot9Path: ${{ inputs.depot9Path }}
         releaseBranch: ${{ inputs.releaseBranch }}
       run: |
-        chmod +x ${{ github.action_path }}/steam_deploy.sh
-        ${{ github.action_path }}/steam_deploy.sh
+        chmod +x ${GITHUB_ACTION_PATH}/steam_deploy.sh
+        ${GITHUB_ACTION_PATH}/steam_deploy.sh
         echo "::set-output name=manifest::$(pwd)/manifest.vdf"
       shell: bash
