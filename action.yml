@@ -1,4 +1,4 @@
-name: 'Steam - Deploy'
+name: 'Steam - Deploy - WILD WITS'
 author: Webber Takken <webber@takken.io>
 description: 'Deploy game builds to Steam using the SteamSDK.'
 inputs:
